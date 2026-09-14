@@ -29,16 +29,16 @@ must be checked separately.
 
 ## Reassignments and exclusions
 
-Paths below are relative to `media/events/weekly/`.
+Previous paths below record filenames at the time of the audit. Current paths reflect the subsequent numbering cleanup and are relative to `media/events/weekly/`, unless written with a `media/` prefix.
 
 | Previous path | Resolution |
 | --- | --- |
-| `2026-08-17/DcGYb0sCJbD-2.jpg` | Removed duplicate of the August 3 recap photo `2026-08-03/DbncOuhiHuu-6.jpg` (different crop/encoding). |
-| `2026-08-17/DcGYb0sCJbD-3.webp` | Moved to `2026-08-10/DcGYb0sCJbD-3.webp`; inferred attribution as described above. |
-| `2026-08-17/DcGYb0sCJbD-4.webp` | Capture date unresolved. Preserved at `media/events/unassigned/DcGYb0sCJbD-4.webp` and excluded from event galleries. Shows stacked meeples on a circular board; posted before the August 17 event. |
-| `2026-09-07/2.jpg` through `4.jpg` | Moved to `2026-08-31/Dc8GHpOESDo-2.jpg` through `Dc8GHpOESDo-4.jpg`; inferred attribution as described above. |
-| `2026-09-14/3.jpg` through `5.jpg` | Moved to `2026-09-07/DdOBt73jukG-3.jpg` through `DdOBt73jukG-5.jpg`. |
-| `2026-09-14/6.jpg` | Removed duplicate of `2026-08-31/DcvRg-DEf_9-8.jpg`. Visual comparison establishes that this is an August 31 recap image, despite being reused in the September 13 announcement. |
+| `2026-08-17/DcGYb0sCJbD-2.jpg` | Removed duplicate of the August 3 recap photo `2026-08-03/6.jpg` (different crop/encoding). |
+| `2026-08-17/DcGYb0sCJbD-3.webp` | Moved to `2026-08-10/7.webp`; inferred attribution as described above. |
+| `2026-08-17/DcGYb0sCJbD-4.webp` | Capture date unresolved. Preserved at `media/events/unassigned/1.webp` and excluded from event galleries. Shows stacked meeples on a circular board; posted before the August 17 event. |
+| `2026-09-07/2.jpg` through `4.jpg` | Moved to `2026-08-31/10.jpg` through `2026-08-31/12.jpg`; inferred attribution as described above. |
+| `2026-09-14/3.jpg` through `5.jpg` | Moved to `2026-09-07/11.jpg` through `2026-09-07/13.jpg`. |
+| `2026-09-14/6.jpg` | Removed duplicate of `2026-08-31/8.jpg`. Visual comparison establishes that this is an August 31 recap image, despite being reused in the September 13 announcement. |
 
 The corrected galleries contain 76 image references. Two duplicate copies were
 removed and one undated photograph remains unassigned. Exact capture dates
