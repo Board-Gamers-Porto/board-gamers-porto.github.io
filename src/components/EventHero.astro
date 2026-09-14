@@ -11,8 +11,8 @@ const date = nextDate(event);
 const images = event.data.images.map((image) => image.src);
 const formatDate = (language: Locale) => {
   const localeCode = language === "pt" ? "pt-PT" : "en-GB";
-  const start = new Intl.DateTimeFormat(localeCode, { dateStyle: "full", timeStyle: "short" }).format(date.start);
-  const end = date.end.toLocaleTimeString(localeCode, { hour: "2-digit", minute: "2-digit" });
+  const start = new Intl.DateTimeFormat(localeCode, { timeZone: "Europe/Lisbon", dateStyle: "full", timeStyle: "short" }).format(date.start);
+  const end = date.end.toLocaleTimeString(localeCode, { timeZone: "Europe/Lisbon", hour: "2-digit", minute: "2-digit" });
   return `${start}–${end}`;
 };
 ---

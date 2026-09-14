@@ -8,7 +8,7 @@ const pt = localizedEvent(event, "pt");
 const en = localizedEvent(event, "en");
 const date = nextDate(event);
 const images = event.data.images.map((image) => image.src);
-const formatDate = (language: Locale) => new Intl.DateTimeFormat(language === "pt" ? "pt-PT" : "en-GB", { dateStyle: "medium", timeStyle: "short" }).format(date.start);
+const formatDate = (language: Locale) => new Intl.DateTimeFormat(language === "pt" ? "pt-PT" : "en-GB", { timeZone: "Europe/Lisbon", dateStyle: "medium", timeStyle: "short" }).format(date.start);
 ---
 
 <a class="card" href={eventPath(locale, event.id)}>

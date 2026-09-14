@@ -11,7 +11,7 @@ const locations = await getLocations();
 const copy = localizedEvent(event, locale);
 const formatDate = (start: Date, end: Date, language: Locale) => {
   const localeCode = language === "pt" ? "pt-PT" : "en-GB";
-  return `${new Intl.DateTimeFormat(localeCode, { dateStyle: "full", timeStyle: "short" }).format(start)} — ${end.toLocaleTimeString(localeCode, { hour: "2-digit", minute: "2-digit" })}`;
+  return `${new Intl.DateTimeFormat(localeCode, { timeZone: "Europe/Lisbon", dateStyle: "full", timeStyle: "short" }).format(start)} — ${end.toLocaleTimeString(localeCode, { timeZone: "Europe/Lisbon", hour: "2-digit", minute: "2-digit" })}`;
 };
 ---
 
