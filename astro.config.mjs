@@ -29,7 +29,7 @@ const eventCollection = ({ name, label, type, slug, mediaFolder }) => ({
 });
 
 export default defineConfig({
-  site: "https://jprafael.github.io/",
+  site: "https://board-gamers-porto.github.io/",
   outDir: "public",
   publicDir: "src/static",
   integrations: [
@@ -39,7 +39,7 @@ export default defineConfig({
       config: {
         backend: {
           name: "github",
-          repo: "jprafael/jprafael.github.io",
+          repo: "Board-Gamers-Porto/board-gamers-porto.github.io",
           branch: "main",
         },
         media_folder: "media",
